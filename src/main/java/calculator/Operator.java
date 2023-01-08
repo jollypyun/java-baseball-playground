@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 public enum Operator {
     PLUS ("+", (first, second) -> first + second),
     MINUS ("-", (first, second) -> first - second),
-    MULLTIPLY ("*", (first, second) -> first * second),
+    MULTIPLY ("*", (first, second) -> first * second),
     DIVIDE ("/", (first, second) -> {
         if (second == 0) {
             throw new IllegalArgumentException("0으로 나눌 수 없습니다.");
