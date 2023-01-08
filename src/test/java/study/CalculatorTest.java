@@ -21,4 +21,24 @@ public class CalculatorTest {
         calculator.execute();
         assertThat(calculator.execute()).isEqualTo(10);
     }
+
+    @Test
+    void plus() {
+
+    }
+
+    @Test
+    void minus() {
+
+    }
+
+    @Test
+    void multiply() {
+
+    }
+
+    @Test
+    void divide() {
+
+    }
 }
