@@ -41,4 +41,9 @@ public class CalculatorTest {
     void divide() {
 
     }
+
+    @Test
+    void illegal() {
+
+    }
 }
