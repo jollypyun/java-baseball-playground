@@ -1,6 +1,5 @@
-package study;
+package calculator;
 
-import calculator.Calculator;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayInputStream;
